@@ -5,16 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="styles.css" rel="stylesheet" type="text/css">
         <title>Pagina principală</title>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="scripts/read_from_stirimd.js"></script>
         </script>
     </head>
     <body>
         <div class="sidenav">
             <a href="index.html">Acasă</a>
             <hr>
-            <a href="sources/from_stirimd.html">De la<br>Știri.md</a>
+            <a href="individual_scrape/from_stirimd.html">De la<br>Știri.md</a>
             <hr>
-            <a href="sources/from_agora.html">De la<br>Agora.md</a>
+            <a href="individual_scrape/from_agora.html">De la<br>Agora.md</a>
+            <hr>
+            <a href="individual_scrape/from_protv.html">De la Pro TV</a>
         </div>
         <div class="main">
             <div class="introduction" style="text-align: center;">
@@ -24,7 +27,6 @@
                 <a style="color: #ea2f10; font-size: 30px;" href="https://stiri.md/">Știri.md</a>
                 <a style="color: cornflowerblue;" href="https://stiri.md/">(stiri.md)</a>
                 <ul style='list-style: none; padding-left: 0px;' id="latest_stirimd_news">
-                    <script type="text/javascript" src="scripts/read_from_stirimd.js"></script>
                 </ul>
                 <a href="souces/from_stirimd.html">Mai mult..</a>
             </div>
