@@ -1,5 +1,4 @@
 function display_latest(amount) {
-  console.log('script started')
     fetch("https://moldovan-content-aggregator-json-api.mixarium.repl.co/stirimd_json")
     .then((response) => {
       if (response.ok) {

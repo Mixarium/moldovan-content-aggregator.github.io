@@ -7,11 +7,12 @@
         <title>Pagina principală</title>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <script type="text/javascript" src="scripts/read_from_stirimd.js"></script>
-        </script>
+        <script type="text/javascript" src="scripts/read_from_agora.js"></script>
+        <script type="text/javascript" src="scripts/read_from_protv.js"></script>
     </head>
     <body>
         <div class="sidenav">
-            <a href="index.html">Acasă</a>
+            <a href="index.html">Pagina<br>principală</a>
             <hr>
             <a href="individual_scrape/from_stirimd.html">De la<br>Știri.md</a>
             <hr>
@@ -28,7 +29,21 @@
                 <a style="color: cornflowerblue;" href="https://stiri.md/">(stiri.md)</a>
                 <ul style='list-style: none; padding-left: 0px;' id="latest_stirimd_news">
                 </ul>
-                <a href="souces/from_stirimd.html">Mai mult..</a>
+                <a href="individual_scrape/from_stirimd.html">Mai mult..</a>
+            </div>
+            <div class="agora">
+                <a style="color: #ea2f10; font-size: 30px;" href="https://agora.md">Agora</a>
+                <a style="color: cornflowerblue;" href="https://agora.md/">(agora.md)</a>
+                <ul style='list-style: none; padding-left: 0px;' id="latest_agora_news">
+                </ul>
+                <a href="individual_scrape/from_agora.html">Mai mult..</a>
+            </div>
+            <div class="protv">
+                <a style="color: #ea2f10; font-size: 30px;" href="https://protv.md">Pro TV</a>
+                <a style="color: cornflowerblue;" href="https://protv.md/">(protv.md)</a>
+                <ul style='list-style: none; padding-left: 0px;' id="latest_protv_news">
+                </ul>
+                <a href="individual_scrape/from_protv.html">Mai mult..</a>
             </div>
         </div>
     </body>
