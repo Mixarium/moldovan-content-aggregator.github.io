@@ -1,5 +1,5 @@
 function display_latest(amount) {
-  fetch("https://moldovan-content-aggregator-json-api.mixarium.repl.co/stirimd_json")
+  fetch("https://moldovan-content-aggregator-json-api.mixarium.repl.co/tv8_json")
   .then((response) => {
     if (response.ok) {
       return response.json()
@@ -8,7 +8,7 @@ function display_latest(amount) {
     }
   })
   .then(data => {
-    let list = document.getElementById('latest_stirimd_news')
+    let list = document.getElementById('latest_tv8_news')
     let length
   if (amount !== undefined) {
     length = amount
